@@ -13,7 +13,7 @@ from homeassistant.util import Throttle
 from .const import _LOGGER, CONF_DEV_ID, CONF_LOC_ID, DOMAIN
 
 UPDATE_LOOP_SLEEP_TIME = 5
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=300)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=360)
 PLATFORMS = [Platform.CLIMATE]
 
 
